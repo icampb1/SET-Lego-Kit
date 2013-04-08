@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		378549F117128DE700D442E5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 378549F017128DE700D442E5 /* main.cpp */; };
 		378549F317128DE700D442E5 /* SET_Lego_Kit.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 378549F217128DE700D442E5 /* SET_Lego_Kit.1 */; };
+		378549FB17128E0600D442E5 /* FileIO.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 378549F917128E0600D442E5 /* FileIO.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		378549ED17128DE700D442E5 /* SET Lego Kit */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "SET Lego Kit"; sourceTree = BUILT_PRODUCTS_DIR; };
 		378549F017128DE700D442E5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		378549F217128DE700D442E5 /* SET_Lego_Kit.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = SET_Lego_Kit.1; sourceTree = "<group>"; };
+		378549F917128E0600D442E5 /* FileIO.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FileIO.cpp; sourceTree = "<group>"; };
+		378549FA17128E0600D442E5 /* FileIO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileIO.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 			children = (
 				378549F017128DE700D442E5 /* main.cpp */,
 				378549F217128DE700D442E5 /* SET_Lego_Kit.1 */,
+				378549F917128E0600D442E5 /* FileIO.cpp */,
+				378549FA17128E0600D442E5 /* FileIO.h */,
 			);
 			path = "SET Lego Kit";
 			sourceTree = "<group>";
@@ -118,6 +123,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				378549F117128DE700D442E5 /* main.cpp in Sources */,
+				378549FB17128E0600D442E5 /* FileIO.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
